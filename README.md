@@ -1,10 +1,10 @@
-### Smart Expense Categorizer – Machine Learning Web App
+### Smart Expense Categorizer – Machine Learning Web App:-
 
 This project is a Streamlit-based machine learning web application that automatically categorizes user-entered expense descriptions into appropriate categories (e.g., Food, Travel, Shopping, Bills, etc.).
 
 It uses a text classification model trained on TF-IDF features to understand and classify expenses.
 
- Features
+### Features
 
 * Simple and interactive Streamlit UI
 * Classifies expenses based on short text descriptions(e.g., "Bought groceries" → Food)
@@ -12,7 +12,7 @@ It uses a text classification model trained on TF-IDF features to understand and
 * Predicts category using a pre-trained ML model
 * Instant prediction with clean UI
 
- Technologies Used
+### Technologies Used
 
 | Component            | Technology        |
 |---------------------|-------------------|
@@ -23,7 +23,7 @@ It uses a text classification model trained on TF-IDF features to understand and
 | Classification Model | expense_model.pkl |
 
 
- Project Structure
+### Project Structure
 
 | File / Folder Name              | Description                               |
 |---------------------------------|-------------------------------------------|
@@ -34,7 +34,7 @@ It uses a text classification model trained on TF-IDF features to understand and
 | smart_expenses_dashboard.pbix   | Power BI dashboard for visual insights    |
 | README.md                       | Project documentation                     |
 
- How to Run the Application
+### How to Run the Application
 1. Install required libraries
 ```
 pip install streamlit scikit-learn pandas numpy pickle-mixin
@@ -47,21 +47,21 @@ streamlit run myfile.py
 
 After running, your default browser will open the app automatically.
 
- How It Works
+### How It Works
 
 * User enters an expense description
 * Description is converted to TF-IDF features using vectorizer.pkl
 * Trained ML model (expense_model.pkl) predicts category
 * Output is displayed as a clean success message
 
-   User Interface Overview
+###   User Interface Overview
 Input:
 * Text field: "Enter your expense description"
 
 Output:
 * Predicted category (e.g., Food, Travel, Shopping)
 
- Example Usage
+### Example Usage
 
 | User Input Example           | Predicted Category |
 |------------------------------|---------------------|
@@ -70,7 +70,7 @@ Output:
 | "Paid electricity bill"      | Utilities           |
 | "Bought shirt from mall"     | Shopping            |
 
- Author
+### Author
 
 Taniya Tyagi
 Feel free to reach out for improvements or suggestions!
