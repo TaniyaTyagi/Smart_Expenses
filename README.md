@@ -1,4 +1,4 @@
- Smart Expense Categorizer – Machine Learning Web App
+### Smart Expense Categorizer – Machine Learning Web App
 
 This project is a Streamlit-based machine learning web application that automatically categorizes user-entered expense descriptions into appropriate categories (e.g., Food, Travel, Shopping, Bills, etc.).
 
