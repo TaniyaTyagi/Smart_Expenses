@@ -4,6 +4,8 @@ This project is a Streamlit-based machine learning web application that automati
 
 It uses a text classification model trained on TF-IDF features to understand and classify expenses.
 
+---
+
 ### Features
 
 * Simple and interactive Streamlit UI
@@ -11,6 +13,8 @@ It uses a text classification model trained on TF-IDF features to understand and
 * Uses a vectorizer (TF-IDF) to convert text into numerical features
 * Predicts category using a pre-trained ML model
 * Instant prediction with clean UI
+
+---
 
 ### Technologies Used
 
@@ -22,6 +26,7 @@ It uses a text classification model trained on TF-IDF features to understand and
 | Text Vectorization   | TF-IDF (Scikit-learn) |
 | Classification Model | expense_model.pkl |
 
+---
 
 ### Project Structure
 
@@ -33,6 +38,8 @@ It uses a text classification model trained on TF-IDF features to understand and
 | synthetic_expenses_500.csv      | Training dataset (optional)               |
 | smart_expenses_dashboard.pbix   | Power BI dashboard for visual insights    |
 | README.md                       | Project documentation                     |
+
+---
 
 ### How to Run the Application
 1. Install required libraries
@@ -47,6 +54,8 @@ streamlit run myfile.py
 
 After running, your default browser will open the app automatically.
 
+---
+
 ### How It Works
 
 * User enters an expense description
@@ -54,12 +63,16 @@ After running, your default browser will open the app automatically.
 * Trained ML model (expense_model.pkl) predicts category
 * Output is displayed as a clean success message
 
+---
+
 ###   User Interface Overview
 Input:
 * Text field: "Enter your expense description"
 
 Output:
 * Predicted category (e.g., Food, Travel, Shopping)
+
+---
 
 ### Example Usage
 
@@ -69,6 +82,8 @@ Output:
 | "Uber ride to airport"       | Travel              |
 | "Paid electricity bill"      | Utilities           |
 | "Bought shirt from mall"     | Shopping            |
+
+---
 
 ### Author
 
